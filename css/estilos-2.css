@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+background-image:url(../img/wallpaper.jpg) ;
+background-size: cover;
+background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    background-color:#f0e6e2a5;
+    border-radius: 0 10px 0 10px;
+    margin: 0 40px;
+
+    
+}
+
+footer{
+    margin: 20px 50px;
+    background-color: #a0c6eda2;
+    text-align: center;
+    padding: 20px 0;
+    color: rgba(16, 3, 87, 0.67);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+main{
+    background-color:#f0e6e2a5;
+    border-radius: 10px;
+    padding: 15px; 
+    margin: 20px 50px;
+
+}
+
+article{
+    background-color: #17177eaf;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 2px;
+
+
+   
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+img{
+    width: 80%;
+    border-radius: 20px 0 20px 0;
+    box-shadow: 5px 5px 10px rgb(234, 235, 239);
+}
+
+.img-juegos{
+    justify-content: center;
+    display: flex;
+   }
+
+
+
+h1, h2{
+    color: rgb(14, 6, 128);
+
+}
+
+p{
+    
+    padding: 10px 0;
+    font-size: 15px;
+    text-align: left;
+    color: #bad7ec;
+}
+
+a{
+    width: 100px;
+    background-color: #4c208f;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 5px;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+  
+}
+
+a:hover{
+    background-color: #f9b0fa;
+    color: #650367  ;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 15px;
+    width: 150px;
+    height: 50px;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgb(29, 67, 220);
+     font-size: 50px ;
+     text-shadow: #37a9fbdd 1px 1px 20px ;
+}
+
+h2{
+    text-align: left;
+    font-size: 20px;
+ 
+}
+
+h3{
+    text-align: left center;
+    padding-top: 10px;
+    border-bottom:#fdf7f9 inset ;
+    color: #022945;
+    font-size: 25px;
+    background-color: rgba(30, 242, 221, 0.525);
+
+}
+
+
+.boton{
+   
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    
+}
+
+.img-juegos{
+    padding-top: 15px;
+}
+
+.articulos, .metodos{
+    color: aliceblue;
+    text-align: center;
+    }
+
+
+#articulo-1{
+    background-image: url(../img/joystick.jpg)
+}
+
+#articulo-2{
+    background-image: url(../img/gamming.jpg);
+    background-size: cover;
+}
